@@ -18,7 +18,7 @@ int main()
 }
 
 void stat (const double A[], int N , double B[]){
-    double ave ;
+    double ave;
     double sum = 0,sum2 = 0;
     double max = A[0],min = A[0];
     for(int i= 0 ; i<N ; i++){
